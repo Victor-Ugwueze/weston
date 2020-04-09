@@ -1,7 +1,8 @@
 body {
     padding: 0px;
     margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    height: 100%;
 }
 
 #top-header {
@@ -20,6 +21,10 @@ body {
     }
     .icons {
         padding-left: 10%;
+    }
+    .navbar .navbar-brand {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -44,4 +49,42 @@ body {
 
 .fa {
     padding-left: 20px;
+}
+
+.hero-image {
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/holding-dog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-text {
+    font-size: 3rem;
+    font-weight: 550;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.services {
+    padding-top: 50px;
+    text-align: center;
+}
+
+hr {
+    padding-top: 20px;
+    border-top: 3px solid rgb(14, 85, 116);
+}
+
+.services-text {
+    font-weight: bold;
+}
+
+#service-list {
+    text-align: left;
 }
